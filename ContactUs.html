@@ -1,17 +1,51 @@
 <!doctype html>
-<head><title>Contact  Us </title></head>
+<head> 
+    <title>Contact  Us </title> 
+<style>
+    .xy{
+      margin-top:20px;}
+       
+    .xyz{
+        padding:20px;
+       box-shadow: 1px 1px 2px 4px  black;
+    }
+    .xyz1{
+         width : 100%;
+         height :100%;
+         border : 5px red;
+         box-shadow: 1px 1px 2px 4px  black;
+         background-color: pink;
+    }
+    .xyz5{
+        background-color:black ;
+        color : white;
+    }
+    .xyz6{
+        background-color:gray ;
+        color : brown;
+    }
+    .xyz7{
+        background-color:yellow ;
+        color : black;
+    }
+    .xyz8{
+        background-color:red ;
+        color : blue;
+    }
+</style>
+</head>
 <html>
     <body>
         <form>
-        <img src = "images/department.png"/>
+        <img class ="xyz" src = "images/department.png"/>
         <h1> Contact Us </h1>
         <hr/>
-        <h3><a href = "home.html"> <li>Home</li> </a></h3>
-        <h3><a href = "admission.html"> <li> Admission</li></a></h3>
-        <h3><a href = "AboutUs.html"> <li> About Us </li></a></h3>
-        <h3><a href = "ContactUs.html"> <li> Contact Us </li></a></h3>
+        <h3 class = "xyz5"> <a class = "xyz5" href = "home.html" ><li> Home  </li></a><h3>
+            <h3 class ="xyz6"> <a class = "xyz6" href = "admission.html" > <li> Admission </li></a></h3>
+            <h3  class ="xyz7"><a class ="xyz7" href = "AboutUs.html"><li> About Us </li> </a></h3>
+            <h3 class ="xyz8"><a class ="xyz8" href = "ContactUs.html"> <li> Contact Us </li> </a></h3>
         <h1>Contact Us</h1>
-        <table border = 2>
+        <table border = 2 class ="xyz1">
             <thead>
                 <tr>
                     <th> Uet Admissions   </th>
@@ -30,6 +64,35 @@
             </tbody>
 
         </table>
+        <table border = 2 class="table xyz1 xy ">
+            <thead>
+              <tr>
+                <th scope="col">#</th>
+                <th scope="col">Uet Admissions </th>
+                <th scope="col">03174084346  00000000</th>
+                <th scope="col">hello </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Registrar </td>
+                <td>03174084346 </td>
+                <td>@mdo</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Controller Of Examination</td>
+                <td>03174084346</td>
+                <td>@fat</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td colspan="2">bye bye</td>
+                <td>@twitter</td>
+              </tr>
+            </tbody>
+          </table>
     </form>
     </body>
 </html>
